@@ -5,11 +5,12 @@ class Sample
 {
     static void Main()
     {
-        Bank bank= new Bank("Lee",1,2358);
+        Bank bank= new Bank("Lee",1,4545);
 
-        bank.Deposit(2358);
-        bank.WithDrawl(2358);
+        bank.Deposit(4545);
+        bank.WithDrawl(2006);
         Console.WriteLine(bank.getName());
+        Console.WriteLine("Hello User");
         Console.ReadKey();
     }
 }
